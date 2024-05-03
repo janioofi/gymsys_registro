@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -63,6 +64,9 @@
               "buildTarget": "gymsys_registro:build:development"
             }
           },
+          "options": {
+            "port": 3000
+          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
@@ -84,6 +88,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -91,5 +96,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7a7d82b2-7532-4694-8ab2-dca49dad593b"
   }
 }
