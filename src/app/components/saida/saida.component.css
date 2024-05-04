@@ -1,0 +1,31 @@
+.container{
+	height: 100%;
+  background-color: rgb(235, 235, 235);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form{
+	width: 30rem;
+	margin: auto;
+  background-color: rgb(253, 253, 253);
+	padding: 4rem 1rem;
+	border-radius: 1rem;
+}
+
+h1{
+	text-align: center;
+  font-weight: bolder;
+	width: 100%;
+  color: black;
+  font-family: Roboto;
+}
+
+.full-width{
+	width: 100%;
+}
+
+button{
+	margin-top: 1.5rem;
+}
